@@ -286,7 +286,6 @@
 	}
 
 	global.toastBoxNotification = {
-		createElements_toast,
 		hideToast,
 		showToast,
 		onSuccess,
@@ -294,7 +293,8 @@
 		onError,
 	};
 
-	toastBoxNotification.createElements_toast();
+	createElements_toast();
 
 	global.toastBoxNotification = toastBoxNotification;
+	
 })(window);
